@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+    </head>
+    <body bgcolor="#7000b1">
+        <center>
+               <br><br><br><br>
+            <fieldset style="width:180px; background-color: white;">
+                <legend style="background-color: white;"    >Form</legend>
+
+
+            
+            <form action="http://github.com/lex2m" method="get">
+                <table border="0">
+            
+               
+            <!----------------------------------AD-------------------------------------------------->
+            
+            <tr>
+                <td><label for="ad">Ad :</label></td>
+                <td colspan="1"><input type="text" name="ad" id="ad" required></td>
+            </tr>
+               
+            <!----------------------------------SOYAD-------------------------------------------------->
+            
+            <tr>
+                <td>Soyad :</td>
+                <td colspan="1"><input type="text" name="soyad" id="soyad" required></td>
+            </tr>
+               
+            <!------------------------------------YAS------------------------------------------------>
+            
+            <tr>
+                <td>Yaş :</td>
+                <td><input type="number" name="yas" id="yas" min="0" max="120" placeholder="Yaşınızı girin" size="20" ></td>
+            </tr>
+               
+            <!------------------------------------RESIM------------------------------------------------>
+            
+            <tr>
+                <td>Resim Ekle :</td>
+                <td><input type="file" name="resim" id="resim"></td>
+            </tr>
+            
+            <!-------------------------------------TC----------------------------------------------->
+
+            <tr>
+                <td>TC No :</td>
+                <td><input type="text" name="tc" id="tc" maxlength="11"></td>
+            </tr>
+            
+            <!------------------------------------CINSIYET------------------------------------------------>
+
+            <tr>
+                <td>Cinsiyet :</td>
+                <td>K<input type="radio" name="cinsiyet" id="cinsiyet" value="K" checked>
+                E<input type="radio" name="cinsiyet" id="cinsiyet1" value="E"></td>
+            </tr>
+            
+
+            <!-------------------------------------YABANCI D----------------------------------------------->
+            <tr>
+                <td>Yabancı Diller :</td>
+                <td>İngilizce<input type ="checkbox" name="dil" id="dil" checked value="ingilizce">
+                    Fransızca<input type="checkbox" name="dil1" id="dil1" value="fransızca">       
+                    İtalyanca<input type="checkbox" name="dil2" id="dil2" value="italyanca">       
+                           </td>
+                <tr>
+            
+             <!-------------------------------------GÖRÜS----------------------------------------------->        
+                    <td>Görüş:</td>
+                    <td>
+                        <textarea name="gorus" id="gorus" placeholder="Görüşlerinizi belirtiniz."></textarea>
+                    </td>    
+                </tr>
+            </tr>
+            <!----------------------------------BUTTON-------------------------------------------------->
+                        <tr>
+             
+                   
+            <td colspan="2">
+            <input type="submit" name="kaydet" id="kaydet" value="Kaydet">
+            <input type="reset" name="sil" id="sil" value="Sil">
+ 
+            </td>
+            </tr>
+             <!------------------------------------------------------------------------------------------>       
+
+
+        </table>
+        
+    </form>
+</fieldset>
+    </center>
+
+    
+</body>
+
+</html>
+ 
